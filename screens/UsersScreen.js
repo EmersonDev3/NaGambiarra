@@ -69,7 +69,7 @@ export default function UsersScreen({ navigation }) {
         ListFooterComponent={() => (
           <TouchableOpacity style={styles.loadMoreButton} onPress={handleLoadMore} disabled={loading}>
             <Text style={styles.loadMoreText}>
-              {loading ? 'Carregando...' : 'Carregar mais '}
+              {loading ? 'Carregando....' : 'Carregar mais '}
               <Icon name="chevron-down" size={16} color="#fff" />
             </Text>
           </TouchableOpacity>
@@ -94,8 +94,8 @@ const styles = StyleSheet.create({
   },
   logoutButton: {
     backgroundColor: '#e53935',
-    paddingVertical: 5, // Tamanho do botão reduzido
-    paddingHorizontal: 15, // Espaço horizontal adicionado
+    paddingVertical: 5, 
+    paddingHorizontal: 15, 
     borderRadius: 8,
     alignItems: 'center',
     marginBottom: 20,
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
   },
   logoutText: {
     color: '#ffffff',
-    fontSize: 14, // Tamanho do texto do botão reduzido
+    fontSize: 14, 
     fontWeight: 'bold',
   },
   userCard: {
@@ -115,8 +115,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#f7f7f7',
     borderRadius: 12,
-    padding: 15, // Aumentando o preenchimento para dar mais espaço
-    marginBottom: 15, // Espaço maior entre os cartões
+    padding: 15, 
+    marginBottom: 15, 
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   avatar: {
-    width: 60, // Aumentando o tamanho do avatar
+    width: 60, 
     height: 60,
     borderRadius: 30,
     marginRight: 15,
